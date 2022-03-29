@@ -7,7 +7,8 @@ public class PlayerCamera : MonoBehaviour
     public float yaw = 0.0f, pitch = 0.0f;
     public Rigidbody rb;
 
-    [SerializeField] float walkSpeed = 0.0f, sensitivity = 2.0f;
+
+    [SerializeField] float walkSpeed = 5.0f, sensitivity = 2.0f;
 
 
     void Start()
@@ -23,6 +24,7 @@ public class PlayerCamera : MonoBehaviour
     public void FixedUpdate()
     {
         Movement();
+
     }
 
     void Look()
