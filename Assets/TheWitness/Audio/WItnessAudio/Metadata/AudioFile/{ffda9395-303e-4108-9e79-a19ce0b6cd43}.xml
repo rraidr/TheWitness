@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{ffda9395-303e-4108-9e79-a19ce0b6cd43}">
+		<property name="assetPath">
+			<value>PM_RD_RAIN_24_CITY_MODARATE_DRIPPY.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>29.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{da0e8c01-c8ad-4235-b756-72cecef72c76}</destination>
+		</relationship>
+	</object>
+</objects>
