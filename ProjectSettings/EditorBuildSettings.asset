@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/TheWitness/Scenes/MainMenu.unity
+    guid: 5483a16b7176a4c4ab422aa930a4eb9b
+  - enabled: 1
+    path: Assets/TheWitness/Scenes/MainLevel.unity
+    guid: d0aa693bb89f8924083d251f66b36aca
   m_configObjects: {}

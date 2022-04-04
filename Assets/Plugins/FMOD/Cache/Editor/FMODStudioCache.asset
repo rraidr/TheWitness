@@ -292,6 +292,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-1224754110667360001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2D Ambience/Menu Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/2D Ambience/Menu Ambience
+  Guid:
+    Data1: -1598443166
+    Data2: 1137870897
+    Data3: 1717560231
+    Data4: -1508703749
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 60312
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,12 +349,13 @@ MonoBehaviour:
   - {fileID: -7050841645858684927}
   - {fileID: -5095864288262184235}
   - {fileID: 1981180938488227312}
+  - {fileID: -1224754110667360001}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2042417623742189147}
   StringsBanks:
   - {fileID: 6360928552393066164}
-  cacheTime: 637847080860181329
+  cacheTime: 637847278404139025
   cacheVersion: 10
 --- !u!114 &1442037987118743381
 MonoBehaviour:
@@ -426,10 +454,10 @@ MonoBehaviour:
   Path: Assets/TheWitness/Audio/WItnessAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637847080860161490
+  lastModified: 637847278404124105
   FileSizes:
   - Name: Desktop
-    Value: 5807712
+    Value: 6508928
   Exists: 1
 --- !u!114 &5296389958336729185
 MonoBehaviour:
@@ -473,10 +501,10 @@ MonoBehaviour:
   Path: Assets/TheWitness/Audio/WItnessAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637847080860181329
+  lastModified: 637847278404139025
   FileSizes:
   - Name: Desktop
-    Value: 1340
+    Value: 1520
   Exists: 1
 --- !u!114 &7471749524912499457
 MonoBehaviour:
