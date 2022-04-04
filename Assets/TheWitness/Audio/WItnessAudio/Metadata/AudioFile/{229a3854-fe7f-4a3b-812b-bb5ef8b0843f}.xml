@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{229a3854-fe7f-4a3b-812b-bb5ef8b0843f}">
+		<property name="assetPath">
+			<value>BranchSnap.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{da0e8c01-c8ad-4235-b756-72cecef72c76}</destination>
+		</relationship>
+	</object>
+</objects>

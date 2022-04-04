@@ -1,0 +1,507 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8830154349259758454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/Home#4
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/Home#4
+  Guid:
+    Data1: -115665784
+    Data2: 1160252175
+    Data3: 1745210775
+    Data4: 64291682
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 6500
+--- !u!114 &-7050841645858684927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/Home#5
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/Home#5
+  Guid:
+    Data1: 96748523
+    Data2: 1304378228
+    Data3: -1818164336
+    Data4: -1139446739
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &-5905637333127687118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/Home#2
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/Home#2
+  Guid:
+    Data1: 342329374
+    Data2: 1085560557
+    Data3: 622848948
+    Data4: -98030242
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-5342110686114171907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/Home#7
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/Home#7
+  Guid:
+    Data1: 1216595833
+    Data2: 1195085448
+    Data3: 2095961018
+    Data4: -1633426775
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 6000
+--- !u!114 &-5095864288262184235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/GhostWhispers
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/GhostWhispers
+  Guid:
+    Data1: -806253092
+    Data2: 1080090573
+    Data3: -711371597
+    Data4: -866896747
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -1724914174835961231}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 39235
+--- !u!114 &-5009924095217957440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2D Ambience/Rain Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/2D Ambience/Rain Ambience
+  Guid:
+    Data1: 1178688499
+    Data2: 1134457978
+    Data3: 793690301
+    Data4: -17786965
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 29500
+--- !u!114 &-4790980310290229466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dark Ambience/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 618156302
+    data2: 3450735691
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3652519771953935874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2D Ambience/Forest Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/2D Ambience/Forest Ambience
+  Guid:
+    Data1: 1719061747
+    Data2: 1105035657
+    Data3: 1378093191
+    Data4: 1813251515
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 214204
+--- !u!114 &-2948647981419049927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/Home#1
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/Home#1
+  Guid:
+    Data1: -1774224667
+    Data2: 1303352381
+    Data3: 1079581607
+    Data4: 1228131196
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 6500
+--- !u!114 &-2203029395054863488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/Home#6
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/Home#6
+  Guid:
+    Data1: 792285395
+    Data2: 1174597757
+    Data3: -1503681904
+    Data4: 475760294
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 5500
+--- !u!114 &-1724914174835961231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostWhispers/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 618156302
+    data2: 3450735691
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 6360928552393066164}
+  - {fileID: 2042417623742189147}
+  EditorEvents:
+  - {fileID: -5009924095217957440}
+  - {fileID: -3652519771953935874}
+  - {fileID: 5296389958336729185}
+  - {fileID: 1591642288125938835}
+  - {fileID: -5905637333127687118}
+  - {fileID: 1442037987118743381}
+  - {fileID: 7471749524912499457}
+  - {fileID: -5342110686114171907}
+  - {fileID: -8830154349259758454}
+  - {fileID: -2203029395054863488}
+  - {fileID: -2948647981419049927}
+  - {fileID: -7050841645858684927}
+  - {fileID: -5095864288262184235}
+  - {fileID: 1981180938488227312}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 2042417623742189147}
+  StringsBanks:
+  - {fileID: 6360928552393066164}
+  cacheTime: 637847080860181329
+  cacheVersion: 10
+--- !u!114 &1442037987118743381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/Home#8
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/Home#8
+  Guid:
+    Data1: -302869689
+    Data2: 1137489615
+    Data3: -976987223
+    Data4: 1730413722
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 5500
+--- !u!114 &1591642288125938835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/Dogs
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/Dogs
+  Guid:
+    Data1: -849277624
+    Data2: 1155038109
+    Data3: 66485425
+    Data4: -339196523
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 6
+  MaxDistance: 70
+  Length: 2000
+--- !u!114 &1981180938488227312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2D Ambience/Dark Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/2D Ambience/Dark Ambience
+  Guid:
+    Data1: -1352941849
+    Data2: 1234730140
+    Data3: -1794931022
+    Data4: 650864138
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4790980310290229466}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 146005
+--- !u!114 &2042417623742189147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/TheWitness/Audio/WItnessAudio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637847080860161490
+  FileSizes:
+  - Name: Desktop
+    Value: 5807712
+  Exists: 1
+--- !u!114 &5296389958336729185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/Branch
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/Branch
+  Guid:
+    Data1: 1380215707
+    Data2: 1322448878
+    Data3: -494851950
+    Data4: -950090091
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 4
+  MaxDistance: 40
+  Length: 2000
+--- !u!114 &6360928552393066164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/TheWitness/Audio/WItnessAudio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637847080860181329
+  FileSizes:
+  - Name: Desktop
+    Value: 1340
+  Exists: 1
+--- !u!114 &7471749524912499457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D Ambience/Home#3
+  m_EditorClassIdentifier: 
+  Path: event:/3D Ambience/Home#3
+  Guid:
+    Data1: 1139247946
+    Data2: 1158356639
+    Data3: 484991904
+    Data4: 956506980
+  Banks:
+  - {fileID: 2042417623742189147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 5500

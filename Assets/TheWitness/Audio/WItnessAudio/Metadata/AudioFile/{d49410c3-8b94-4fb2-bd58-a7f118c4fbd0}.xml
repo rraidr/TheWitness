@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{d49410c3-8b94-4fb2-bd58-a7f118c4fbd0}">
+		<property name="assetPath">
+			<value>zapsplat_foley_tree_leaves_branch_whoosh_impact_designed_010_47841.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.79200000000000004</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{da0e8c01-c8ad-4235-b756-72cecef72c76}</destination>
+		</relationship>
+	</object>
+</objects>
