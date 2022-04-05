@@ -22,7 +22,6 @@ public class PauseMenu : MonoBehaviour
         denialVersions[3] = "Please don't leave us.";
         denialVersions[4] = "We won't let you leave.";
         denialVersions[5] = "No, you're staying here.";
-        denialVersions[6] = "Find us.";
         textValue = 0;
  
     }
@@ -34,7 +33,6 @@ public class PauseMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
                  Denial();
-
 
         }
 
@@ -51,8 +49,7 @@ public class PauseMenu : MonoBehaviour
         } else
         {
             textValue++;
-            pauseMenuUI.SetActive(true);
-            denialText.GetComponent<Animation>().Play();
+            textAnimation.GetComponent<Animation>().Play();
             denialText.text = denialVersions[textValue];
             StartCoroutine(RemoveWidget());
         }
@@ -62,7 +59,6 @@ public class PauseMenu : MonoBehaviour
     IEnumerator RemoveWidget()
     {
         yield return new WaitForSeconds(2f);
-        pauseMenuUI.SetActive(false);
 
  
     }
