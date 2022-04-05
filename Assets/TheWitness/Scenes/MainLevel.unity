@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4071.3906, g: 4272.6934, b: 4524.8096, a: 1}
+  m_IndirectSpecularColor: {r: 4271.343, g: 4486.009, b: 4700.25, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13021,7 +13021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990aaa2ec7bd46e4ab39ed6895b90e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent:
+  whispersEvent:
     Guid:
       Data1: -806253092
       Data2: 1080090573
@@ -13058,7 +13058,9 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params: []
+  Params:
+  - Name: Distance
+    Value: 100
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -15920,6 +15922,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 358b75ea5451cf143ab19029a189097d, type: 3}
   m_PrefabInstance: {fileID: 606350588}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &609474969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 609474970}
+  - component: {fileID: 609474972}
+  - component: {fileID: 609474971}
+  m_Layer: 0
+  m_Name: DogBark (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &609474970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609474969}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -108.4, y: -0.88999987, z: 106.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1099292162}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &609474971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609474969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc0827ec07d2a24299d56dd6f17fe92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minWait: 15
+  maxWait: 50
+--- !u!114 &609474972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609474969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -849277624
+      Data2: 1155038109
+      Data3: 66485425
+      Data4: -339196523
+    Path: event:/3D Ambience/Dogs
+  Event: 
+  PlayEvent: 11
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &611413759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22076,7 +22155,7 @@ MonoBehaviour:
   player: {fileID: 65051559}
   incrementValue: 0
   inTrigger: 0
-  distance: 100
+  distance: 0
 --- !u!114 &679711887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22089,7 +22168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990aaa2ec7bd46e4ab39ed6895b90e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent:
+  whispersEvent:
     Guid:
       Data1: -806253092
       Data2: 1080090573
@@ -22126,7 +22205,9 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params: []
+  Params:
+  - Name: Distance
+    Value: 100
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -42839,6 +42920,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 43dd1ba2a5dde844eb01240da13ab96b, type: 3}
   m_PrefabInstance: {fileID: 1090160023}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1096621912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1096621913}
+  - component: {fileID: 1096621915}
+  - component: {fileID: 1096621914}
+  m_Layer: 0
+  m_Name: DogBark (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1096621913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096621912}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 58.8, y: -0.88999987, z: 142.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1099292162}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1096621914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096621912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc0827ec07d2a24299d56dd6f17fe92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minWait: 15
+  maxWait: 50
+--- !u!114 &1096621915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096621912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -849277624
+      Data2: 1155038109
+      Data3: 66485425
+      Data4: -339196523
+    Path: event:/3D Ambience/Dogs
+  Event: 
+  PlayEvent: 11
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1098618674
 GameObject:
   m_ObjectHideFlags: 0
@@ -42982,6 +43140,8 @@ Transform:
   m_Children:
   - {fileID: 1498977588}
   - {fileID: 2050976918}
+  - {fileID: 1096621913}
+  - {fileID: 609474970}
   m_Father: {fileID: 1104660430}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -52273,7 +52433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990aaa2ec7bd46e4ab39ed6895b90e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent:
+  whispersEvent:
     Guid:
       Data1: -806253092
       Data2: 1080090573
@@ -52310,7 +52470,9 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params: []
+  Params:
+  - Name: Distance
+    Value: 100
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -53179,7 +53341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990aaa2ec7bd46e4ab39ed6895b90e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent:
+  whispersEvent:
     Guid:
       Data1: -806253092
       Data2: 1080090573
@@ -53216,7 +53378,9 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params: []
+  Params:
+  - Name: Distance
+    Value: 100
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -63540,7 +63704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990aaa2ec7bd46e4ab39ed6895b90e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent:
+  whispersEvent:
     Guid:
       Data1: -806253092
       Data2: 1080090573
@@ -63577,7 +63741,9 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params: []
+  Params:
+  - Name: Distance
+    Value: 100
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -64151,7 +64317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990aaa2ec7bd46e4ab39ed6895b90e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent:
+  whispersEvent:
     Guid:
       Data1: -806253092
       Data2: 1080090573
@@ -64188,7 +64354,9 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params: []
+  Params:
+  - Name: Distance
+    Value: 100
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -65863,7 +66031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990aaa2ec7bd46e4ab39ed6895b90e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent:
+  whispersEvent:
     Guid:
       Data1: -806253092
       Data2: 1080090573
@@ -65900,7 +66068,9 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params: []
+  Params:
+  - Name: Distance
+    Value: 100
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -66764,7 +66934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990aaa2ec7bd46e4ab39ed6895b90e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent:
+  whispersEvent:
     Guid:
       Data1: -806253092
       Data2: 1080090573
@@ -66801,7 +66971,9 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  Params: []
+  Params:
+  - Name: Distance
+    Value: 100
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20

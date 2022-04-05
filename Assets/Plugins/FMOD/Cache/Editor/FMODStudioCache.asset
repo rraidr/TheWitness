@@ -355,7 +355,7 @@ MonoBehaviour:
   - {fileID: 2042417623742189147}
   StringsBanks:
   - {fileID: 6360928552393066164}
-  cacheTime: 637847278404139025
+  cacheTime: 637847588259578223
   cacheVersion: 10
 --- !u!114 &1442037987118743381
 MonoBehaviour:
@@ -454,7 +454,7 @@ MonoBehaviour:
   Path: Assets/TheWitness/Audio/WItnessAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637847278404124105
+  lastModified: 637847588259553424
   FileSizes:
   - Name: Desktop
     Value: 6508928
@@ -501,7 +501,7 @@ MonoBehaviour:
   Path: Assets/TheWitness/Audio/WItnessAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637847278404139025
+  lastModified: 637847588259578223
   FileSizes:
   - Name: Desktop
     Value: 1520

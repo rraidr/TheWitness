@@ -2,15 +2,12 @@
 [LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
 [LOG] SystemI::init                            : Initialize version=20204 (121702), maxchannels=256, flags=0x00020000
 [LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
-[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=8, nSamplesPerSec=44100, nAvgBytesPerSec=1411200, nBlockAlign=32, wBitsPerSample=32, cbSize=22.
-[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x0000063F, SubFormat=00000003-0000-0010-8000-00AA00389B71.
-[LOG] OutputWASAPI::init                       : Output buffer size: 3760 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
-[LOG] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
-[LOG] DownMix::init                            : dspbuffersize: 1024  rate: 48000. output speaker mode: 7, input speaker mode 3
-[LOG] DownMix::init                            : done.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002A523760DA8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001D107AF36E8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -21,10 +18,125 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 141)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::createSound                     : filename = Assets/TheWitness/Audio/WItnessAudio/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D06E0E4A38 : node = 000001D0A309A930
+[LOG] SystemI::createSound                     : add node to async list : head = 000001CF82C54818.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D06E0E4A38
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/TheWitness/Audio/WItnessAudio/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 6484256
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 24672
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D0A309AA40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 6484256
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 24672
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000003F0E10F338
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Ghost Whispers', format=5, channels=2, frequency=48000, lengthbytes=466720, lengthpcm=1883324, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.907074.
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFB999B0AD0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFB999B0AA0
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFB999B0BA0
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFB999B0C60
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001D064013378
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='Home#1Cue', format=5, channels=2, frequency=48000, lengthbytes=67200, lengthpcm=312000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D06E0E4A38
+[LOG] SoundI::release                          : Ghost Whispers (000001D06DEE2FB8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0AE4D35D8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D107E74ED8)
+[LOG] SoundI::release                          : Ghost Whispers (000001D06DEE2238)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0AE325B48)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D05F50A2F8)
+[LOG] SoundI::release                          : Ghost Whispers (000001D06DEE39D8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0AE4D2A78)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D107E74158)
+[LOG] SoundI::release                          : Ghost Whispers (000001D06DEE19C8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0AE3751B8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D05F50AEC8)
+[LOG] SoundI::release                          : Ghost Whispers (000001D06DEDFEC8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0AE326EC8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D107E749C8)
+[LOG] SoundI::release                          : Ghost Whispers (000001D06DEE08E8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0AE5FFBE8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0ADE9EC28)
+[LOG] SoundI::release                          : Ghost Whispers (000001D06E0E4A38)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0AE6000C8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0ADE9E718)
+[LOG] SoundI::release                          : Ghost Whispers (000001D06DEE1ED8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0AE3747F8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D05F50A9B8)
+[LOG] SoundI::release                          : Ghost Whispers (000001D06DEE0A98)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D0AE3261C8)
+[LOG] SoundI::release                          :     Ghost Whispers (000001D107E74308)
+[LOG] SoundI::release                          : PM_RD_RAIN_24_CITY_MODARATE_DRIPPY (000001D06DEE0DF8)
+[LOG] SoundI::release                          :     PM_RD_RAIN_24_CITY_MODARATE_DRIPPY (000001D0AE374658)
+[LOG] SoundI::release                          :     PM_RD_RAIN_24_CITY_MODARATE_DRIPPY (000001D05F50AB68)
+[LOG] SoundI::release                          : 7 - Windy Forest (000001D06DEE0FA8)
+[LOG] SoundI::release                          :     7 - Windy Forest (000001D0AE374E78)
+[LOG] SoundI::release                          :     7 - Windy Forest (000001D05F50A4A8)
+[LOG] SoundI::release                          : PM_Darkscapes_27 (000001D06DEE2E08)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D0AE326848)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D107E744B8)
+[LOG] SoundI::release                          : PM_Darkscapes_27 (000001D06DEE14B8)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D0AE4D28D8)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D107E74818)
+[LOG] SoundI::release                          : PM_Darkscapes_27 (000001D06DEE1158)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D0AE373618)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D05F50A148)
+[LOG] SoundI::release                          : PM_Darkscapes_27 (000001D06DEE1308)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D0AE4D3DF8)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D107E74D28)
+[LOG] SoundI::release                          : PM_Darkscapes_27 (000001D06DEE1818)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D0AE375018)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D05F50AD18)
+[LOG] SoundI::release                          : PM_Darkscapes_27 (000001D06DEE0738)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D0AE326368)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D107E74B78)
+[LOG] SoundI::release                          : PM_Darkscapes_27 (000001D06DEE1668)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D0AE4D3AB8)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D107E74668)
+[LOG] SoundI::release                          : PM_Darkscapes_27 (000001D06DEE2C58)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D0AE374CD8)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D05F50A658)
+[LOG] SoundI::release                          : PM_Darkscapes_27 (000001D06DEE2AA8)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D0AE374B38)
+[LOG] SoundI::release                          :     PM_Darkscapes_27 (000001D05F50A808)
+[LOG] SoundI::release                          :  (000001CD2091BCF8)
+[LOG] SoundI::release                          :     Dogbark2 (000001D0BF8C66E8)
+[LOG] SoundI::release                          :  (000001CD2091CCC8)
+[LOG] SoundI::release                          :     Dogbark1 (000001D05EEE5538)
+[LOG] SoundI::release                          :  (000001CD2091B8A8)
+[LOG] SoundI::release                          :     zapsplat_foley_tree_leaves_branch_whoosh_impact_designed_011_47842 (000001D05EEE5878)
+[LOG] SoundI::release                          :  (000001CD2091BE68)
+[LOG] SoundI::release                          :     zapsplat_foley_tree_leaves_branch_whoosh_impact_designed_012_47843 (000001D018EE3BF8)
+[LOG] SoundI::release                          :  (000001CD2091C878)
+[LOG] SoundI::release                          :     zapsplat_foley_tree_leaves_branch_whoosh_impact_designed_013_47844 (000001D018EE3D98)
+[LOG] SoundI::release                          :  (000001CD2091B458)
+[LOG] SoundI::release                          :     zapsplat_foley_tree_leaves_branch_whoosh_impact_designed_015_47846 (000001D018EE38B8)
+[LOG] SoundI::release                          :  (000001CD2091BB88)
+[LOG] SoundI::release                          :     BranchSnap (000001D0BF8C6888)
+[LOG] SoundI::release                          :  (000001CD2091B178)
+[LOG] SoundI::release                          :     zapsplat_foley_tree_leaves_branch_whoosh_impact_designed_001_47905 (000001D0BF8C6548)
+[LOG] SoundI::release                          :  (000001CD2091C9E8)
+[LOG] SoundI::release                          :     zapsplat_foley_tree_leaves_branch_whoosh_impact_designed_010_47841 (000001D018EE3A58)
+[LOG] SoundI::release                          :  (000001D0C0206398)
+[LOG] SoundI::release                          :     Home#1Cue (000001D0AE4596D8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.

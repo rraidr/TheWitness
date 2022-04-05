@@ -7,7 +7,8 @@ public class ChangeWhisperDistance : MonoBehaviour
 
     public FMOD.Studio.EventInstance instance;
 
-    public FMODUnity.EventReference fmodEvent;
+    public FMODUnity.EventReference whispersEvent;
+
 
     public GameObject player;
     public float incrementValue;
@@ -20,7 +21,7 @@ public class ChangeWhisperDistance : MonoBehaviour
     void Start()
     {
         distance = 100f;
-        instance = FMODUnity.RuntimeManager.CreateInstance(fmodEvent);
+        instance = FMODUnity.RuntimeManager.CreateInstance(whispersEvent);
         instance.start();
         inTrigger = false;
     }
